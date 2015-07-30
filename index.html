@@ -152,7 +152,7 @@
 				top: 15px;
 				right: 30px;
 				text-align: right;
-
+				z-index: 9999;
 			}
 
 			#popup {
@@ -673,6 +673,7 @@
 					element.style.display = 'none';
 					buttonUpdate.style.display = 'none';
 					buttonShare.display = 'none';
+					document.getElementById('editor').style.display ="none";
 
 				} else {
 
@@ -681,6 +682,7 @@
 					element.style.display = '';
 					buttonUpdate.style.display = '';
 					buttonShare.display = '';
+					document.getElementById('editor').style.display ="";
 
 				}
 
